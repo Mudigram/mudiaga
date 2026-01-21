@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mudiaga | Full-Stack Software Engineer
 
-## Getting Started
+> **Proactive software engineer building scalable, user-centric web solutions with modern technologies.**
 
-First, run the development server:
+![Portfolio Banner](public/projects/choplife/homepage.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Welcome to my portfolio repository. This project showcases my journey as a Full-Stack Software Engineer, highlighting my ability to build performant, accessible, and aesthetically pleasing applications. It serves as a central hub for my projects, technical writing, and professional background.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Live Site:** [mudiaga.dev](https://mudiaga.dev)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+I leverage a modern, robust tech stack to deliver high-quality software:
 
-To learn more about Next.js, take a look at the following resources:
+*   **Frontend:** ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+*   **Backend:** ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+*   **Database:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-181818?style=flat&logo=supabase&logoColor=3ECF8E) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+*   **Tools:** ![Docker](https://img.shields.io/badge/Docker-2395EC?style=flat&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Featured Projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### [OpenHealth NG](/projects/openhealth-ng)
+**Description:** A consolidated healthcare directory for Nigeria, providing standardized access to over 2,000 facilities.
+*   **Key Tech:** Next.js 15, Supabase (PostGIS), React-Leaflet.
+*   **Highlight:** Reduced geospatial search queries from ~800ms to <50ms using PostGIS indexing.
 
-## Deploy on Vercel
+### [Energy Backend](/projects/energy-backend)
+**Description:** A production-grade backend system for oil & gas production logging.
+*   **Key Tech:** Python, FastAPI, DDD, SQLAlchemy.
+*   **Highlight:** Implemented strict auditability and immutable logs for regulatory compliance.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### [ChopLife IB](/projects/choplife-ib)
+**Description:** A premium discovery platform for lifestyle spots in Ibadan.
+*   **Key Tech:** Next.js, Redux Toolkit, TanStack Query.
+*   **Highlight:** Mobile-first design with optimistic UI updates for a native app-like feel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### [Weekly Quiz](/projects/weekly-quiz)
+**Description:** A gamified learning platform for blockchain education.
+*   **Key Tech:** Next.js, Zustand, Supabase Realtime.
+*   **Highlight:** High-concurrency support with Redis-backed state management.
+
+## 🏁 Getting Started
+
+To run this portfolio locally:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Mudigram/portfolio.git
+    cd portfolio
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Connect with me:**
+[LinkedIn](https://linkedin.com/in/mudiaga) | [Twitter](https://twitter.com/Mudigram) | [Email](mailto:hello@mudiaga.dev)

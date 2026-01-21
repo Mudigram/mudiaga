@@ -2,12 +2,39 @@ import { projects } from "@/data/projects";
 import { notFound } from "next/navigation";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { TechBadge } from "@/components/ui/tech-badge";
 import { ExternalLink, Github, FileText, Database, Play, Terminal } from "lucide-react";
 import Image from "next/image";
+import type { Metadata } from "next";
 
-export default async function ProjectDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+type Props = {
+    params: Promise<{ slug: string }>
+}
+
+export async function generateMetadata(
+    { params }: Props
+): Promise<Metadata> {
+    const { slug } = await params;
+    const project = projects.find((p) => p.slug === slug);
+
+    if (!project) {
+        return {
+            title: 'Project Not Found',
+        }
+    }
+
+    return {
+        title: project.title,
+        description: project.description,
+        openGraph: {
+            title: `${project.title} | Mudiaga Portfolio`,
+            description: project.description,
+            images: project.heroImage ? [project.heroImage] : [],
+        },
+    }
+}
+
+export default async function ProjectDetailPage({ params }: Props) {
     const { slug } = await params;
     const project = projects.find((p) => p.slug === slug);
 
