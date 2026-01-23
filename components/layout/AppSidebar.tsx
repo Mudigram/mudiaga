@@ -75,16 +75,27 @@ export function AppSidebar() {
                 </SidebarMenu>
             </SidebarContent>
             <SidebarFooter className="border-t p-4">
-                <div className="flex items-center justify-around group-data-[collapsible=icon]:flex-col group-data-[collapsible=icon]:gap-4">
-                    <a href="https://github.com/Mudigram" target="_blank" className="text-muted-foreground hover:text-foreground">
-                        <Github className="size-4" />
+                <div className="flex flex-col gap-4">
+                    <a
+                        href="/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 justify-center bg-sidebar-accent text-sidebar-accent-foreground px-3 py-2 rounded-md text-sm font-medium hover:bg-sidebar-accent/90 transition group-data-[collapsible=icon]:hidden"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-file-text"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /><path d="M14 2v4h4" /></svg>
+                        Download Resume
                     </a>
-                    <a href="https://www.linkedin.com/in/mudiaga-omene-7727271b2/" target="_blank" className="text-muted-foreground hover:text-foreground">
-                        <Linkedin className="size-4" />
-                    </a>
-                    <a href="https://www.x.com/TheMudiaga" target="_blank" className="text-muted-foreground hover:text-foreground">
-                        <Twitter className="size-4" />
-                    </a>
+                    <div className="flex items-center justify-around group-data-[collapsible=icon]:flex-col group-data-[collapsible=icon]:gap-4">
+                        <a href="https://github.com/Mudigram" target="_blank" className="text-muted-foreground hover:text-foreground">
+                            <Github className="size-4" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/mudiaga-omene-7727271b2/" target="_blank" className="text-muted-foreground hover:text-foreground">
+                            <Linkedin className="size-4" />
+                        </a>
+                        <a href="https://www.x.com/TheMudiaga" target="_blank" className="text-muted-foreground hover:text-foreground">
+                            <Twitter className="size-4" />
+                        </a>
+                    </div>
                 </div>
             </SidebarFooter>
             <SidebarRail />

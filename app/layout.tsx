@@ -10,13 +10,13 @@ export const metadata: Metadata = {
     template: '%s | Mudiaga Portfolio'
   },
   description: 'Proactive software engineer specializing in scalable full-stack applications, domain-driven design, and high-performance web solutions.',
-  keywords: ['Software Engineer', 'Full Stack Developer', 'React', 'Next.js', 'TypeScript', 'Nigeria', 'Portfolio'],
+  keywords: ['Software Engineer', 'Full Stack Developer', "Python", "FastAPI", "Django Rest Framework", "Django", "Node.js", "Express.js", "TypeScript", "Next.js", "React", "Nigeria", "Portfolio"],
   authors: [{ name: 'Mudiaga' }],
   creator: 'Mudiaga',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mudiaga.dev',
+    url: 'https://mudiaga-dev.vercel.app/',
     title: 'Mudiaga | Full-Stack Software Engineer',
     description: 'Building scalable solutions with modern web technologies.',
     siteName: 'Mudiaga Portfolio',
