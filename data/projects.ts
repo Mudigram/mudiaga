@@ -231,7 +231,7 @@ Start with Next.js routes, extract only when necessary.`
             '/projects/choplife/about.jpg',
         ],
         githubUrl: 'https://github.com/Mudigram/choplife-ib',
-        liveUrl: 'https://choplife-ib.vercel.app/',
+        liveUrl: 'https://choplife-city.vercel.app/',
         content: {
             readme: `## Problem
 
@@ -306,7 +306,7 @@ create policy "Users can insert their own profile."
 
 - **Optimistic Updates:** Immediate feedback on user actions (likes, reviews) before server confirmation.
 - **Image Optimization:** Next.js Image component with blurred placeholders for improved LCP.`,
-            demoUrl: "https://choplife-ib.vercel.app/"
+            demoUrl: "https://choplife-city.vercel.app/"
         }
     },
     {
@@ -322,8 +322,8 @@ create policy "Users can insert their own profile."
             '/projects/weekly-quiz/profile.jpg',
             '/projects/weekly-quiz/flashcard.jpg',
         ],
-        githubUrl: 'https://github.com/Mudigram/weekly-quiz',
-        liveUrl: 'https://weekly-quiz.vercel.app/',
+        githubUrl: 'https://github.com/Mudigram/quiz',
+        liveUrl: 'https://tirualquiz.vercel.app/',
         content: {
             readme: `## Description
 
@@ -424,8 +424,8 @@ Payload:
             '/projects/energy-backend/services-code-snippet.png',
             '/projects/energy-backend/test-code.png',
         ],
-        githubUrl: 'https://github.com/Mudigram/energy-backend',
-        liveUrl: 'https://energy-api-docs.vercel.app/docs',
+        githubUrl: 'https://github.com/Mudigram/pls',
+        liveUrl: 'https://github.com/Mudigram/pls',
         content: {
             readme: `## Context
 
