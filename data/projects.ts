@@ -79,7 +79,7 @@ export const projects: Project[] = [
         highlight: true,
         heroImage: '/projects/sureprice/hero.jpeg',
         githubUrl: 'https://github.com/Mudigram/sureprice-v2',
-        liveUrl: 'https://sureprice-v2.vercel.app',
+        liveUrl: 'https://qarty.ng',
         keyInsight: 'Physical retail stores still use paper price tags that go stale within days — QR codes can make pricing real-time without any app download.',
         caseStudy: {
             problem: `Physical retail stores, supermarkets, and pop-up vendors in Nigeria struggle with price management. With frequent currency fluctuations and inflation, updating paper shelf tags is labor-intensive, error-prone, and leads to discrepancies where the price on the shelf doesn't match the price at the checkout counter. This frustrates shoppers and creates friction for store owners.`,
