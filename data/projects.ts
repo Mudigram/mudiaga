@@ -265,6 +265,34 @@ export const projects: Project[] = [
         githubUrl: 'https://github.com/Mudigram/ai-knowledge-assistant'
     },
     {
+        slug: 'newmehomes',
+        title: 'NewMe Homes',
+        description: 'A modern, responsive marketing and accommodations platform designed and built for an independent & transitional living facility in Fort Worth, Texas.',
+        tags: ['Next.js', 'React', 'Tailwind CSS', 'Client Work'],
+        href: '/projects/newmehomes',
+        status: 'shipped',
+        category: 'fullstack',
+        role: 'Freelance Engineer',
+        year: '2026',
+        tier: 2,
+        githubUrl: 'https://github.com/Mudigram/newmehomes',
+        liveUrl: 'https://www.newmehomes.org/'
+    },
+    {
+        slug: 'julian-designs',
+        title: 'Julian Designs',
+        description: 'A bespoke creative portfolio and visual identity showcase engineered for a multi-disciplinary brand designer, featuring interactive project galleries and inquiry flows.',
+        tags: ['Next.js', 'React', 'Tailwind CSS', 'Client Work'],
+        href: '/projects/julian-designs',
+        status: 'shipped',
+        category: 'fullstack',
+        role: 'Freelance Engineer',
+        year: '2026',
+        tier: 2,
+        githubUrl: 'https://github.com/Mudigram/jd',
+        liveUrl: 'https://julian-designs.vercel.app/'
+    },
+    {
         slug: 'csv-analyzer',
         title: 'CSV Analyzer',
         description: 'High-performance Rust CLI tool for rapid parsing, statistical aggregation, and filtering of large CSV datasets.',
