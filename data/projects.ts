@@ -34,6 +34,37 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        slug: 'nexgen',
+        title: 'NEXGEN Capital Fund',
+        description: 'Institutional venture capital intake and grant acceleration platform deploying ₦30,000,000 in non-dilutive capital, PAU-EDC executive training, and venture acceleration for Nigerian founders.',
+        tags: ['Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS', 'Venture OS'],
+        href: '/projects/nexgen',
+        status: 'shipped',
+        category: 'product',
+        role: 'Solo Builder',
+        year: '2026',
+        tier: 1,
+        highlight: true,
+        heroImage: '/projects/nexgen/hero.png',
+        images: [
+            '/projects/nexgen/hero.png',
+            '/projects/nexgen/mobile.png'
+        ],
+        githubUrl: 'https://github.com/Mudigram/Pangea-app',
+        liveUrl: 'https://pangea-app.vercel.app/',
+        keyInsight: 'Institutional grant allocation in emerging markets often fails at the intake level — pairing structured due diligence with clear non-dilutive tranche milestones creates transparency that attracts top-tier founders and syndicate capital.',
+        caseStudy: {
+            problem: `Early-stage founders in Nigeria face immense capital friction. While millions in grants and development finance exist on paper, the distribution pipeline is bogged down by opaque paper forms, scattered due diligence standards, and cumbersome compliance checkpoints. Most grant intake portals look archaic, lack institutional credibility, and fail to provide founders with clear transparency regarding disbursement tranches, selection criteria, or milestones.`,
+            insight: `Venture capital and non-dilutive grant allocation requires an institutional-grade digital interface that treats founders like enterprise partners rather than charity applicants. High-performing founders evaluate the platform's rigor before committing sensitive balance sheets and CAC documentation. By designing a high-trust, editorial web platform with clear tranche breakdowns (working capital, executive training, venture acceleration) and upfront eligibility benchmarks, the intake process can weed out low-intent submissions while accelerating verified candidates.`,
+            approach: `I engineered the platform around institutional clarity and operational momentum. I structured the program into three compounding value pillars: direct seed disbursement, executive training at Pan-Atlantic University EDC, and a 5-month sprint at Lagos Innovation Hub ending with an institutional Demo Day. The UI needed to feel authoritative, calm, and unmistakably premium—using an architectural grid layout, restrained monochromatic typography, subtle ambient glows, and interactive tranche breakdown cards.`,
+            build: `Built with Next.js 16 and React 19, the platform showcases the ₦30,000,000 allocation model, program milestones across four distinct phases (Intake, Jury, Residence, and Demo Day), and an audited alumni wall of fame highlighting previous cohort achievements (such as EcoBarter's ₦180M Series A and Scrapays' $1.2M seed round). It features a 3-step digital intake application portal, due diligence checklist verification, tranche value calculators, and responsive mobile navigation.`,
+            technicalDecisions: `I used Next.js 16 with Turbopack for lightning-fast compilation and static optimization. Tailwind CSS enabled meticulous typographic rhythm and custom architectural grid patterns without runtime styling overhead. Lucide icons provide lightweight, sharp iconography. The application uses modern responsive CSS clamping for editorial headlines that maintain proportional balance across both ultra-wide monitors and compact mobile screens.`,
+            challenges: `Balancing high-density institutional information with an engaging, breathable visual hierarchy was the core challenge. Financial grant structures involve dense legal disclaimers, partner logos, and multi-tier eligibility rules. I resolved this by chunking information into interactive editorial cards, sticky phase timelines, and visual due-diligence badges so founders can absorb the prerequisites in seconds without feeling overwhelmed.`,
+            outcome: `The platform is live at pangea-app.vercel.app, establishing an institutional digital presence for the 2026 Cohort VI grant cycle. It successfully communicates prestige and non-dilutive transparency, positioning the alliance (Meridian Investment Group, PAU-EDC, and Lagos Innovation Hub) as a premier venture launchpad in West Africa.`,
+            reflection: `In future iterations, I plan to integrate automated CAC certificate verification via Nigerian corporate registry APIs and a live founder applicant portal where finalists can track jury scoring and tranche disbursements directly in real time.`
+        }
+    },
+    {
         slug: 'proofa',
         title: 'Proofa',
         description: 'Mobile-first receipt and invoice generator designed for Nigerian SMEs to instantly share professional documents on WhatsApp.',
